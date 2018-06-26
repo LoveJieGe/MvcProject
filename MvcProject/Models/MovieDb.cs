@@ -8,6 +8,9 @@ namespace MvcProject.Models
 {
     public class MovieDb : DbContext
     {
+        public MovieDb() : base("name=connString") {
+
+        }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
