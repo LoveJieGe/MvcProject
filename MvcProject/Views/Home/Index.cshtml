@@ -5,17 +5,21 @@
     <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
     <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
 </div>
-<div  ng-app="movies">
-    <div ng-controller="ListController">
+<div data-ng-app="movies" >
+    @*<div ng-controller="ListController">
         <table>
             <tr ng-repeat="movie in movies">
                 <td>{{movie.Title}}</td>
             </tr>
         </table>
-    </div>
+    </div>*@
+    <ng-view>
+
+    </ng-view>
 </div>
 @section scripts{
     <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular-route.js"></script>
     <script src="~/Scripts/Client/Scripts/movies.js"></script>
     <script src="~/Scripts/Client/Scripts/ListController.js"></script>
 }
