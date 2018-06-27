@@ -1,5 +1,6 @@
 ﻿(function (app) {
-    let ListController = function ($scope, $http) {
+    let ListController = function ($scope, $http, $location) {
+        debugger
         $http.get('/api/movie').
             then(function (r) {
                 $scope.movies = r.data;
