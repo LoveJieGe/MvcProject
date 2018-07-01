@@ -11,4 +11,5 @@
         })
     }
     app.config(config);
+    app.constant("movieApiUrl", "/api/movie");
 }());

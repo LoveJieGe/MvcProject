@@ -239,6 +239,7 @@
     <Content Include="Scripts\Client\Scripts\ListController.js" />
     <Content Include="Scripts\Client\Scripts\movies.js" />
     <Content Include="Client\views\list.html" />
+    <Content Include="Scripts\Client\Scripts\movieService.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />

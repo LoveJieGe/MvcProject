@@ -1,11 +1,11 @@
 ﻿(function (app) {
-    let ListController = function ($scope, $http, $location) {
+    let ListController = function ($scope, movieService) {
         debugger
-        $http.get('/api/movie').
+        movieService.getAll().
             then(function (r) {
-                $scope.movies = r.data;
-            })
+            $scope.movies = r.data;
+        });
     }
-    ListController.$inject = ['$scope','$http']
+    ListController.$inject = ['$scope','movieService']
     app.controller('ListController', ListController);
 }(angular.module('movies')));
