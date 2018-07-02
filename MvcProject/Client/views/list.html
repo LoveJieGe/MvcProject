@@ -17,10 +17,15 @@
             <tbody>
                 <tr ng-repeat="movie in movies">
                     <td>{{movie.Title}}</td>
-                    <td><a href="#/details/{{movie.Id}}">详细信息</a></td>
+                    <td>
+                        <a class="btn btn-default" href="#/details/{{movie.Id}}">详细信息</a>
+                        <button class="btn btn-default" ng-click="delete(movie)">删除</button>
+                    </td>
                 </tr>
             </tbody>
         </table>
+        <button class="btn btn-default" ng-click="create()">创建</button>
+        <div ng-include="'/Client/views/edit.html'"></div>
     </div>
 <!--</body>
 </html>-->

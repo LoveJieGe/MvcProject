@@ -1,7 +1,7 @@
 ﻿(function () {
     var app = angular.module('movies', ['ngRoute']);
-    var config = function ($routeProvider) {
-        debugger
+    var config = function ($routeProvider, $locationProvider) {
+        $locationProvider.hashPrefix('');
         $routeProvider.when('/list', {
             templateUrl:'/Client/views/list.html'
         }).when('/details/:id', {
@@ -11,5 +11,5 @@
         })
     }
     app.config(config);
-    app.constant("movieApiUrl", "/api/movie");
+    app.constant("movieApiUrl", "/api/movie/");
 }());

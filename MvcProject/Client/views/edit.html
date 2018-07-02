@@ -1,0 +1,28 @@
+﻿<div ng-controller="EditController">
+    <form ng-show="isEdittable()">
+        <fieldset>
+            <div class="form-group">
+                <label for="Title">
+                    标题:
+                </label>
+                <input type="text" name="title" id="title" ng-model="edit.movie.Title" required class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="release">
+                    发布年份:
+                </label>
+                <input type="number" name="release" id="release" ng-model="edit.movie.ReleaseYear" required 
+                       min="1990" max="2030" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="runtime">
+                    点击次数:
+                </label>
+                <input type="number" name="runtime" id="runtime" ng-model="edit.movie.Runtime" required
+                       min="0" max="500" class="form-control" />
+            </div>
+            <button class="btn btn-primary" ng-click="save()">确定</button>
+            <button class="btn btn-default" ng-click="cancel()">取消</button>
+        </fieldset>
+    </form>
+</div>

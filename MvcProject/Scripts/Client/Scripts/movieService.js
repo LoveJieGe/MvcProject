@@ -13,7 +13,7 @@
             return $http.post(movieApiUrl, movie);
         }
         var destroy = function (movie) {
-            return $http.delete(movieApiUrl, movie);
+            return $http.delete(movieApiUrl+movie.Id);
         }
         return {
             getAll: getAll,

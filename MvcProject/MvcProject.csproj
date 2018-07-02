@@ -196,6 +196,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Client\views\details.html" />
+    <Content Include="Client\views\edit.html" />
     <Content Include="favicon.ico" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap.css" />
@@ -236,6 +237,7 @@
     <Content Include="Scripts\angular-route.min.js.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\Client\Scripts\DetailsController.js" />
+    <Content Include="Scripts\Client\Scripts\EditController.js" />
     <Content Include="Scripts\Client\Scripts\ListController.js" />
     <Content Include="Scripts\Client\Scripts\movies.js" />
     <Content Include="Client\views\list.html" />
