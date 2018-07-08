@@ -15,7 +15,7 @@ namespace MvcProject.测试.Controllers
             HomeController controller = new HomeController();
 
             // 操作
-            ViewResult result = controller.Index() as ViewResult;
+            ViewResult result = controller.Index();
 
             // 断言
             Assert.IsNotNull(result);
