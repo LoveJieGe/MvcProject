@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcProject.测试", "MvcPro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{ADD3A425-7710-442B-B24D-F7795A9E1203}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacWeb", "AutofacWeb\AutofacWeb.csproj", "{A20E4AD6-DF93-4BD7-96E7-8AB532C36AD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{ADD3A425-7710-442B-B24D-F7795A9E1203}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADD3A425-7710-442B-B24D-F7795A9E1203}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADD3A425-7710-442B-B24D-F7795A9E1203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A20E4AD6-DF93-4BD7-96E7-8AB532C36AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20E4AD6-DF93-4BD7-96E7-8AB532C36AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20E4AD6-DF93-4BD7-96E7-8AB532C36AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20E4AD6-DF93-4BD7-96E7-8AB532C36AD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
